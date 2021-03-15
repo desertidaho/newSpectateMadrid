@@ -50,6 +50,7 @@
     </div>
   </header>
 
+  <!-- Start of Articles  -->
   <section>
     <div class="container">
       <div class="row align-items-center">
@@ -62,7 +63,12 @@
           <div class="p-5">
             <h2 class="display-4">Federico Valverde Modrić's Successor</h2>
             <p>January 24, 2020</p>
-            <p>In the last transfer window, there was a big interest from Real Madrid to purchase Manchester United's Paul Pogba, probably as a successor to the aging Luka Modrić. But after half of a season that he shows his importance to the team, no one has a doubt, Federico Valverde is the man to count on. It is not a secret that Real Madrid was afraid from the day they will need to replace Luka Modrić. The Croatian was one of Madrid's most important players during their European golden age, when they won 3 consecutive UEFA Champions League titles. Nevertheless, it seems that this time has come, Modrić is 34 now, and having a decrease in his ability. Madrid's manager, Zinedine Zidane wanted to sign Paul Pogba in the last transfer window, but since he failed to do so, he needed to find another solution to the problem, solution that will be known at a later time as Federico Valverde. Similar to Modrić, Valverde is a box to box midfielder, with high work rate in both defense and attack. On the defensive aspect of his game, Valverde is a great pressing player. Always the first to engage for defensive duels from Real's midfield, and prevent the opposition from enjoying ball possession without being pressed. In addition, like Modrić, Valverde excel when it comes to intercept opposition passes. Another defensive aspect of Fede's game is his ability to cover the defenders. Integral part of Zizou's tactic is based on fullbacks movement to support the attacking gameplay. While the fullbacks go forward, they leave behind them lots of space the opposition could exploit for counter attacks. Valverde's ability to cover the defenders allows the fullbacks to do a lot of attacking runs in the team's flanks without being afraid of opposition counter attacks. When it comes to his attacking aspect of his game, Valverde's biggest weapon is his ability bring the ball forward. Using his dribbling skills, lethal first touch and bursting power, Valverde became one of the most important players in Real Madrid's transition game. It's seen often after he make an interception or a tackle and right away making a progressive run towards the opposition goal. The 21 years old international Uruguayan is not a typical young player. Showing tremendous maturity in his game, Valverde became one of Madrid's best players this season. His decision-making ability is something special for a player at his age. We could see an example for it in the last Supercup final against Atletico Madrid, when he decides to tackle Morata, and prevent a 1 on 1 chance in the 115th minute, knowing it will cost him with a red card. All in all, Valverde showed this season that he is Real Madrid's successor for Luka Modrić. With great performances this season, he is one of the main reasons the team have the best defense in the league, and for their position at the table, equal to the points of the rivals from Barcelona. Written by Snir Weitzman Twitter: snir98 Writer for SpectateMadrid</p>
+            <p>In the last transfer window, there was a big interest from Real Madrid to purchase Manchester United's Paul Pogba, probably as a successor to the aging Luka Modrić. But after half of a season that he shows his importance to the team, no one has a doubt, Federico Valverde is the man to count on. It is not a secret that Real Madrid was afraid from the day they will need to replace Luka Modrić. The Croatian was one of Madrid's most important players during their European golden age, when they won 3 consecutive UEFA Champions League titles. Nevertheless, it seems that this time has come, Modrić is 34 now, and having a decrease in his ability. Madrid's manager, Zinedine Zidane wanted to sign Paul Pogba in the last transfer window, but since he failed to do so, he needed to find another solution to the problem, solution that will be known at a later time as Federico Valverde. Similar to Modrić, Valverde is a box to box midfielder, with high work rate in both defense and attack. On the defensive aspect of his game, Valverde is a great pressing player.<br /> 
+              <button id="buttonRead0" src="" class="btn btn-outline-dark btn-sm rounded-pill mt-2" onclick="displayArticle(0)">Read More...</button>
+              <span id="span0"style="display: none;">Always the first to engage for defensive duels from Real's midfield, and prevent the opposition from enjoying ball possession without being pressed. In addition, like Modrić, Valverde excel when it comes to intercept opposition passes. Another defensive aspect of Fede's game is his ability to cover the defenders. Integral part of Zizou's tactic is based on fullbacks movement to support the attacking gameplay. While the fullbacks go forward, they leave behind them lots of space the opposition could exploit for counter attacks. Valverde's ability to cover the defenders allows the fullbacks to do a lot of attacking runs in the team's flanks without being afraid of opposition counter attacks. When it comes to his attacking aspect of his game, Valverde's biggest weapon is his ability bring the ball forward. Using his dribbling skills, lethal first touch and bursting power, Valverde became one of the most important players in Real Madrid's transition game. It's seen often after he make an interception or a tackle and right away making a progressive run towards the opposition goal. The 21 years old international Uruguayan is not a typical young player. Showing tremendous maturity in his game, Valverde became one of Madrid's best players this season. His decision-making ability is something special for a player at his age. We could see an example for it in the last Supercup final against Atletico Madrid, when he decides to tackle Morata, and prevent a 1 on 1 chance in the 115th minute, knowing it will cost him with a red card. All in all, Valverde showed this season that he is Real Madrid's successor for Luka Modrić. With great performances this season, he is one of the main reasons the team have the best defense in the league, and for their position at the table, equal to the points of the rivals from Barcelona. Written by Snir Weitzman Twitter: snir98 Writer for SpectateMadrid
+                <br /><a id="buttonHide0" href="#buttonRead0" class="btn btn-outline-dark btn-sm rounded-pill mt-2" onclick="hideArticle(0)">Hide Article</a>
+              </span>
+            </p>
           </div>
         </div>
       </div>
@@ -156,6 +162,18 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function displayArticle(articleNum) {
+      document.querySelector('#buttonRead0').style.display = 'none';
+      document.querySelector('#span0').style.display = 'inline';
+    }
+    function hideArticle(articleNum) {
+      document.querySelector('#buttonRead0').style.display = 'inline';
+      document.querySelector('#span0').style.display = 'none';
+    }
+
+  </script>
 
 </body>
 
